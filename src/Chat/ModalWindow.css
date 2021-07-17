@@ -1,0 +1,78 @@
+.edit-message-modal {
+  z-index: 3;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+  color: #087cfd;
+}
+
+.block-modal {
+  width: 50%;
+  border: 1px solid #087cfd;
+  height: fit-content;
+  padding: 20px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 255, 0.95);
+}
+
+.line {
+  height: 1px;
+  background-color: #087cfd;
+  width: 30%;
+  margin: 10px 0 40px 0;
+}
+
+.edit-message-input {
+  border: 3px solid #087cfd;
+  border-radius: 5px;
+  height: 20%;
+  width: 50%;
+  padding: 20px;
+}
+
+.edit-message-input:focus {
+  border: 3px solid black;
+}
+
+.buttonsField {
+  width: 20%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.buttonStyle {
+  margin: 0 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-message-close {
+  background-color: #777;
+  color: white;
+}
+
+.edit-message-close:hover {
+  background-color: #666;
+}
+
+.edit-message-button {
+  background-color: #087cfd;
+  color: white;
+}
+
+.edit-message-button:hover {
+  background-color: #488cfd;
+}

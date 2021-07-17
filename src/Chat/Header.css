@@ -1,0 +1,9 @@
+.header {
+  color: #087cfd;
+  border: 1px solid #087cfd;
+  margin-bottom: 1px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
+}

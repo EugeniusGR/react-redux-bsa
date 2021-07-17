@@ -1,0 +1,58 @@
+.WindowField {
+  margin: 20px;
+  padding: 100px 100px 20px 100px;
+  color: #4f38ff;
+  border: 2px solid #8768f1;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.WindowField h1 {
+  text-decoration: underline;
+}
+
+.WindowField input {
+  padding: 3px;
+}
+
+.WindowField input:focus {
+  border-left: 3px solid #8768f1;
+}
+
+.LoginField {
+  border-left: 3px solid #8768f1;
+  padding: 0px 10px 20px 10px;
+  width: 30%;
+  margin-left: 100px;
+  box-shadow: 0px 0px 5px #c7a8f8;
+}
+
+.PasswordField {
+  border-left: 3px solid #8768f1;
+  padding: 0px 10px 20px 10px;
+  width: 30%;
+
+  margin-left: 150px;
+  box-shadow: 0px 0px 5px #c7a8f8;
+}
+
+.inputLogin {
+  border: 2px solid #4f38ff;
+}
+
+.inputPassword {
+  border: 2px solid #4f38ff;
+}
+
+.button {
+  border: 3px solid #8768f1;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 50px 350px;
+  width: 100px;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 8px #c7a8f8;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "login": "user1",
+    "password": "user1",
+    "mail": "user1@gmail.com",
+    "adminPermission": false
+  },
+  {
+    "login": "user2",
+    "password": "user2",
+    "mail": "user2@gmail.com",
+    "adminPermission": false
+  },
+  {
+    "login": "admin",
+    "password": "admin",
+    "mail": "admin@gmail.com",
+    "adminPermission": true
+  }
+]

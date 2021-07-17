@@ -1,0 +1,89 @@
+.message {
+  display: flex;
+  margin: 30px 10px;
+  width: fit-content;
+  color: white;
+  position: relative;
+}
+
+.message-body {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  color: #777;
+}
+
+.message-body_text {
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 25px;
+  background-color: #087cfd;
+  box-shadow: 2px 2px 5px #588dfd;
+  color: white;
+}
+
+.message-user-name {
+  font-weight: bold;
+}
+
+.message-user-avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.message-text {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.message-text::selection {
+  background-color: #98adff;
+  color: white;
+}
+
+.message-like {
+  content: "he";
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 25px;
+  border: 2px solid #c1deff;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  right: 0px;
+  top: -7px;
+}
+
+.message-like:after {
+  content: "🤍";
+}
+
+.message-liked {
+  background-color: rgba(253, 161, 161, 0.7);
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 25px;
+  border: 2px solid #ff5151d2;
+  backdrop-filter: blur(2px);
+  font-weight: bold;
+  color: #571414;
+  position: absolute;
+  right: 0px;
+  top: -7px;
+}
+
+.message-liked:after {
+  content: "🧡";
+}
+
+.message-time {
+  margin: 5px 10px;
+  font-size: 11px;
+}

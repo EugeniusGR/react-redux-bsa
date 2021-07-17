@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  height: 72vh;
+  overflow-y: scroll;
+  position: relative;
+  border: 1px solid #aaa;
+  border-bottom: none;
+  padding: 20px 20px 0px 20px;
+  width: 80%;
+  margin: auto;
+  background-color: #fafafa;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #087cfd;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #588dfd;
+  border-radius: 5px;
+}
+
+.messages-divider {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 10px;
+  position: sticky;
+  top: 5px;
+  z-index: 2;
+  background-color: #eee;
+  box-shadow: 2px 2px 5px #588dfd;
+}
